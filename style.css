@@ -20,6 +20,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -61,6 +63,14 @@ h3 {
     font-size: 23px;
     line-height: 31px;
     /* identical to box height */
+}
+
+.review {
+    display: flex;
+}
+
+article {
+    max-width: 370px;
 }
 
 article:hover h3 {
