@@ -1,19 +1,109 @@
-/* @font-face {
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/PlayfairDisplaySC-Black.woff);
+}
 
-} */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Roboto-Regular.woff);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    src: url(fonts/Roboto-Bold.woff);
+}
+
+body {
+    text-align: center;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #FF7931;
+}
+
+article {
+    text-align: left;
+}
+
+h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    /* identical to box height */
+}
+
+article:hover h3 {
+    color: #FF7931;
+}
+
+article:hover img {
+    
+}
 
 .container {
     display: flex;
 }
 
-.logo a {
-    font-family: Playfair;
+.logo {
+    font-family: "Playfair Display";
     font-style: normal;
     font-weight: 900;
     font-size: 35px;
     line-height: 47px;
     /* identical to box height */
     letter-spacing: 1px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* footer {
