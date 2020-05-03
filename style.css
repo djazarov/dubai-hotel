@@ -68,7 +68,7 @@ article:hover h3 {
 }
 
 article:hover img {
-    
+    filter: brightness(50%) contrast(150%);
 }
 
 .container {
