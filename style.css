@@ -1,0 +1,23 @@
+/* @font-face {
+
+} */
+
+.container {
+    display: flex;
+}
+
+.logo a {
+    font-family: Playfair;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    /* identical to box height */
+    letter-spacing: 1px;
+}
+
+/* footer {
+    color: white;
+    background-color: #575757;
+} */
+
